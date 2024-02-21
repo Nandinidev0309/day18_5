@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        @media screen and (min-width:0px) and (max-width:300px){
+            .top{
+                background-color: rgb(68, 9, 123);
+                display: grid;
+                gap: 10px;
+                padding: 20px;
+            }
+            
+            .bottom{
+                background-color: rgb(30, 209, 215);
+                justify-content: center;
+                align-content: center;
+                display: grid; 
+                height: 30px;
+            }
+             
+            }
+
+
+            
+            @media screen and (min-width:301px) and (max-width:600px){
+
+                .top{
+    display: grid;
+    padding: 10px;
+    border: 1px solid black;
+    height: 50vh;
+    gap: 5px;
+    background-color: rgb(231, 220, 169); 
+}
+.bottom{
+    background-color: rgb(107, 237, 64); 
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+   
+}
+.cd1{
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    grid-row-start: 1;
+    grid-row-end: 10;
+   
+   
+}
+.cd2{
+    
+    grid-column-start: 2;
+    grid-column-end:8;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.cd3{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+.cd4{
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+.cd5{
+    grid-column-start:6;
+    grid-column-end:8;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+                    }
+
+
+
+            @media screen and (min-width:600px) and (max-width:1200px){
+                .top{
+    display: grid;
+    padding: 10px;
+    border: 1px solid black;
+    height: 30vh;
+    gap: 5px;
+    background-color: rgb(231, 220, 169); 
+    
+}
+.bottom{
+    background-color: rgb(174, 100, 206); 
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+   
+}
+
+.cd1{
+    grid-column-start: 1;
+    grid-column-end:6 ;
+    grid-row-start: 1;
+    grid-row-end:3;
+
+}
+.cd2{
+    
+    grid-row-start: 3;
+    grid-row-end: 8;
+   
+}
+
+.cd3{
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+   
+}
+.cd4{
+    grid-column-start:4;
+    grid-column-end:6;  
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.cd5{
+    grid-column-start:2;
+    grid-column-end:6;
+    grid-row-start: 6;
+    grid-row-end: 8;
+   
+} 
+   
+            }        
+    </style>
+</head>
+<body>
+    <!-- <div class="top">
+        <div class="bottom">one</div>
+        <div class="bottom">two</div>
+        <div class="bottom">three</div>
+        <div class="bottom">four</div>
+        <div class="bottom">five</div>
+        <div class="bottom">six</div>
+    </div>  -->
+
+
+    <div class="top">
+        <div class="bottom cd1">one</div>
+        <div class="bottom cd2">two</div>      
+        <div class="bottom cd3">three</div>
+        <div class="bottom cd4">four</div>
+        <div class="bottom cd5">five</xdiv>
+    </div>
+
+
+    <!-- <div class="top3">
+        <div class="bottom3 cd13">Header</div>
+        <div class="bottom3 cd23">Menu</div>
+        <div class="bottom3 cd33">Main</div>
+        <div class="bottom3 cd43">Right</div>
+        <div class="bottom3 cd53">Footer</div>
+    </div> -->
+</body>
+</html>
